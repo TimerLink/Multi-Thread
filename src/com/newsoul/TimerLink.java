@@ -8,8 +8,4 @@ public class TimerLink {
         this.timer = new Timer();
         this.timer.schedule(new TimerTask1(), time * 1000);
     }
-    public static void main(String[] args) {
-        System.out.println("timer begin....");
-        new TimerLink(3);
-    }
 }
